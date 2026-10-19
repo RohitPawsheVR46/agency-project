@@ -35,7 +35,7 @@ const Navbar = ({ theme, setTheme }) => {
       <img src={theme === 'dark' ? Images.logo_dark : Images.logo} alt=""
         className='w-32 sm:w-40 z-20 ' />
 
-      <div className={` text-gray-700 sm:gap-6 flex max-sm:flex-col max-sm:h-full max-sm:bg-primary ${!openSidebar ? 'max-sm:w-0 max-sm:overflow-hidden' : 'max-sm:w-55 max-sm:pl-10'} transition-all sm:items-center max-sm:fixed max-sm:top-0 max-sm:right-0 max-sm:gap-5 max-sm:pt-20 sm:text-black max-sm:text-white
+      <div className={` text-gray-700 sm:gap-6 flex max-sm:flex-col max-sm:h-full max-sm:bg-primary ${!openSidebar ? 'max-sm:w-0 max-sm:overflow-hidden max-sm:p-0' : 'max-sm:w-55 max-sm:pl-10'} transition-all sm:items-center max-sm:fixed max-sm:top-0 max-sm:right-0 max-sm:gap-5 max-sm:pt-20 sm:text-black max-sm:text-white
       dark:text-white
       `}>
 
