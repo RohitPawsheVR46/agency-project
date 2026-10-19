@@ -3,7 +3,7 @@ import Images from '../assets/assets'
 
 const hero = () => {
   return (
-    <div id='hero' className='flex flex-col items-center py-40 dark:bg-black text-center gap-8 overflow-hidden'>
+    <div id='hero' className='flex flex-col items-center py-25 dark:bg-black text-center gap-8 overflow-hidden max-sm:py-15'>
 
       <div className='inline-flex border border-gray-400 rounded-4xl gap-1 p-2 items-center justify-center '>
         <img src={Images.group_profile} alt="" className='w-23'/>

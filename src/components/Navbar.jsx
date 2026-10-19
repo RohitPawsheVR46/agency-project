@@ -30,7 +30,7 @@ const Navbar = ({ theme, setTheme }) => {
   }, [theme])
 
   return (
-    <div className='flex justify-between items-center sm:pt-5 sm:px-40 sticky z-20 py-4 top-0 dark:bg-black'>
+    <div className='flex justify-between items-center sm:pt-5 sm:px-40 sticky z-20 py-4 top-0 bg-white dark:bg-black '>
 
       <img src={theme === 'dark' ? Images.logo_dark : Images.logo} alt=""
         className='w-32 sm:w-40 z-20 ' />
